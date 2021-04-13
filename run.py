@@ -1,6 +1,9 @@
 from lure import select_lure, play_lure
 from record import filename, record
 from pixel_ring import pixel_ring
+from upload import upload_recording
+
+filename = "test2.wav" # Delete
 
 def main():
     # Run program every hour
@@ -16,6 +19,7 @@ def main():
     FILENAME, FILENAME_DATA = filename('location', lure_index)
     record(FILENAME, FILENAME_DATA)
 
-    # Reset timer
+    # testing. Use FILENAME
+    upload_recording(filename)
 
 main()
