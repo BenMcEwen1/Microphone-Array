@@ -1,6 +1,11 @@
 from lure import select_lure, play_lure
 from record import filename, record
 from pixel_ring import pixel_ring
+from upload import upload_recording
+import parameters
+
+
+_filename = "test2.mp4" # delete
 
 def main():
     # Run program every hour
@@ -16,6 +21,7 @@ def main():
     FILENAME, FILENAME_DATA = filename('location', lure_index)
     record(FILENAME, FILENAME_DATA)
 
-    # Reset timer
+    # change filename to FILENAME
+    upload_recording(_filename)
 
 main()
