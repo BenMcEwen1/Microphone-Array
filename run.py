@@ -2,7 +2,6 @@ from lure import select_lure, play_lure
 from record import filename, record
 from pixel_ring import pixel_ring
 from upload import upload_recording
-import parameters
 
 
 _filename = "test2.mp4" # delete
