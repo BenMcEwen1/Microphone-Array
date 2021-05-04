@@ -18,9 +18,9 @@ def main():
     # Record for 60 seconds (currently 5 sec) and upload data
     pixel_ring.listen()
     FILENAME, FILENAME_DATA = filename('location', lure_index)
-    record(FILENAME, FILENAME_DATA)
-
+    DOA = record(FILENAME, FILENAME_DATA)
+    
     # change filename to FILENAME
-    upload_recording(_filename)
+    upload_recording(_filename, DOA)
 
 main()
