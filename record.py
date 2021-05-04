@@ -77,7 +77,5 @@ def record(FILENAME, FILENAME_DATA):
     wf.writeframes(b''.join(frames))
     wf.close()
 
+    return DOA
 
-#lure_dir, lure_index = select_lure()
-#FILENAME, FILENAME_DATA = filename('location', lure_index)
-#record(FILENAME, FILENAME_DATA)

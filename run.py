@@ -3,7 +3,8 @@ from record import filename, record
 from pixel_ring import pixel_ring
 from upload import upload_recording
 
-filename = "test2.wav" # Delete
+
+_filename = "test2.mp4" # delete
 
 def main():
     # Run program every hour
@@ -17,9 +18,9 @@ def main():
     # Record for 60 seconds (currently 5 sec) and upload data
     pixel_ring.listen()
     FILENAME, FILENAME_DATA = filename('location', lure_index)
-    record(FILENAME, FILENAME_DATA)
-
-    # testing. Use FILENAME
-    upload_recording(filename)
+    DOA = record(FILENAME, FILENAME_DATA)
+    
+    # change filename to FILENAME
+    upload_recording(_filename, DOA)
 
 main()
