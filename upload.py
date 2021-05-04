@@ -26,4 +26,4 @@ def upload_recording(filename, DOA):
 
     print(response.text)
 
-upload_recording(filename_test, DOA_test)
+#upload_recording(filename_test, DOA_test)

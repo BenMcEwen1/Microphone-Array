@@ -4,7 +4,7 @@ from pixel_ring import pixel_ring
 from upload import upload_recording
 
 
-_filename = "test2.mp4" # delete
+_filename = "audio/test/test2.mp4" # delete
 
 def main():
     # Run program every hour
