@@ -67,8 +67,6 @@ def record(FILENAME, FILENAME_DATA):
     p.terminate()
 
     print('Finished recording, saving data')
-
-    tx = np.savetxt(FILENAME_DATA, data, fmt='%s')
     
     wf = wave.open(FILENAME, 'wb')
     wf.setnchannels(1)
