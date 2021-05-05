@@ -11,6 +11,12 @@ The relevant steps include:
 * Configuration of 6 channel firmware
 * Configuration of Direction of Arrival (DOA)
 
+## Install
+Development and testing using Python verison: 2.7.16
+```
+pip install -r requirements.txt
+```
+
 ## Scripts:
 #### Run.py
 Runs all of the scripts in the correct order. 
