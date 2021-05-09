@@ -39,5 +39,10 @@ Useful for testing. Currently configured to spin when selecting and playing audi
 from pixel_ring import pixel_ring
 pixel_ring.set_brightness(0x00)
 ```
+
+### Debugging
+* Make sure you check the index of the device. The device index could be different between devices and may need to be changed.
+* Install the correct firmware onto the device using the DFU.py script using --download 6_channels_firmware.bin
+
 ## Cacophony Project
 This work contributes to https://github.com/TheCacophonyProject
