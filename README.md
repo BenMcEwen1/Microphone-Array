@@ -36,8 +36,8 @@ Upload the DOA info by storing it as 'additionalMetaData'
 ##### LED Ring 
 Useful for testing. Currently configured to spin when selecting and playing audio lure and display DOA when recording. This should be tured off in the field by running:
 ```python
-from pixel_ring import pixel_ring
-pixel_ring.set_brightness(0x00)
+from led import spin, listen, on, off
+off()
 ```
 
 ### Debugging

@@ -27,8 +27,8 @@ def filename(location, index):
     date = x.strftime("%d%m%y")
     time = x.strftime("%H%M%S")
 
-    FILENAME = 'recordings/{}-{}-{}-{}.wav'.format(location, index, date, time)
-    FILENAME_DATA = 'recordings/{}-{}-{}-{}-DOA.csv'.format(location, index, date, time)
+    FILENAME = '/home/pi/Audio-Lure/recordings/{}-{}-{}-{}.wav'.format(location, index, date, time)
+    FILENAME_DATA = '/home/pi/Audio-Lure/recordings/{}-{}-{}-{}-DOA.csv'.format(location, index, date, time)
 
     print('Files created')
     return FILENAME, FILENAME_DATA

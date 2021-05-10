@@ -1,2 +1,6 @@
 parameters.py
 parameters.pyc
+
+*.wav
+
+*.pyc
