@@ -16,7 +16,7 @@ from doa import direction
 RESPEAKER_RATE = 16000
 RESPEAKER_CHANNELS = 6 
 RESPEAKER_WIDTH = 2
-RESPEAKER_INDEX = 2  # Run get_index.py to find the index for your device
+RESPEAKER_INDEX = 1  # Run get_index.py to find the index for your device
 CHUNK = 1024
 RECORD_SECONDS = 5
 
