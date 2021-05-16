@@ -18,7 +18,7 @@ RESPEAKER_CHANNELS = 6
 RESPEAKER_WIDTH = 2
 RESPEAKER_INDEX = 1  # Run get_index.py to find the index for your device
 CHUNK = 1024
-RECORD_SECONDS = 5
+RECORD_SECONDS = 60
 
 
 
